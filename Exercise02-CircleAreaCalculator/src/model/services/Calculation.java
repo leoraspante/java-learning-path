@@ -6,6 +6,6 @@ public final class Calculation {
 
 	// Method dedicated for calculate the area of an circle.
 	public static Double calculateArea(Circle area) {
-		return Math.PI * (Math.pow(area.getRadius(), area.getRadius()));
+		return Math.PI * (Math.pow(area.getRadius(), 2));
 	}
 }
