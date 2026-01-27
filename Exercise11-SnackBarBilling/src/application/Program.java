@@ -20,13 +20,7 @@ public class Program {
 		Services.showMenu();
 				
 		// Product data collection
-		
-		System.out.println(list.size());
-		
 		int code = Services.productCodeCapture(sc);
-		
-		System.out.println(code);
-		
 		int quantity = Utils.readInt("Enter product quantity: ", sc);
 
 		double result = Services.productOrderCalculator(code, quantity, list);
@@ -35,5 +29,4 @@ public class Program {
 		
 		sc.close();
 	}
-
 }
