@@ -1,4 +1,11 @@
-// Description: Records fuel choices (1=Alcohol, 2=Gasoline, 3=Diesel) until code 4 ends input.
+/**
+ * Fueling Management System
+ *
+ * A simple Java program that simulates a gas station fueling process.
+ * It lets the user select a fuel type, enter the amount in liters,
+ * and calculates the total cost of the fueling.
+ */
+
 
 package application;
 
